@@ -48,8 +48,7 @@ docker-local-registry/
 ├── local-registry.sh
 │
 ├── README.md
-│
-└── .gitignore
+
 ```
 
 ---
