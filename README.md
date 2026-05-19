@@ -42,12 +42,14 @@ docker-local-registry/
 │
 ├── screenshots/
 │   ├── registry-running.png
-│   ├── image-pushed.png
-│   ├── image-pulled.png
+|   ├── local-registry-script.png
+|   ├── full-script-output.png
 │
 ├── local-registry.sh
 │
 ├── README.md
+|
+├── .gitignore
 
 ```
 
@@ -149,7 +151,6 @@ docker ps
 You should see the `registry:2` container running.
 
 ---
-
 # Example Screenshot Sections
 
 ## Local Registry Running
@@ -158,15 +159,9 @@ You should see the `registry:2` container running.
 
 ---
 
-## Image Successfully Pushed
+## Full Script Execution Output
 
-![Image Push](screenshots/image-pushed.png)
-
----
-
-## Image Pulled from Local Registry
-
-![Image Pull](screenshots/image-pulled.png)
+![Full Script Output](screenshots/full-script-output.png)
 
 ---
 
