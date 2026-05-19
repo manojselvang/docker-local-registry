@@ -200,7 +200,7 @@ This script automates:
 # Clone Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/manojselvang/docker-local-registry
 ```
 
 ---
@@ -218,3 +218,4 @@ chmod +x local-registry.sh
 # Author
 
 Manoj Selvan
+
